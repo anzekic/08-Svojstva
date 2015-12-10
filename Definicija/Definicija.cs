@@ -15,9 +15,10 @@ namespace Vsite.CSharp
             o1.DatumRođenja = new DateTime(1933, 4, 13);
 
             o1.Ime = "Pero";
-            o1.Prezime = "Kvrgić";
+            o1.Ime = "";
 
             o1.DatumRođenja = new DateTime(2020, 4, 13);
+            Console.ReadKey();
         }
     }
 }
